@@ -1,0 +1,18 @@
+# Visual Studio 自动生成的隐藏配置
+.vs/
+
+# 编译产生的临时文件夹
+Debug/
+Release/
+x64/
+x86/
+
+# 编译产生的可执行文件和缓存文件
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.tlog
+*.idb
+*.iobj
+*.ipdb
