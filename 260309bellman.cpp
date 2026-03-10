@@ -71,3 +71,6 @@ int main(){
     if(ans>=1e9/2) cout<<"impossible";
     else cout<<ans;
 }
+//注意要拷贝dist[]防止串联，即用这阶段更新的值来更新同一阶段不同点的值
+//memcpy(backup,dist,sizeof dist)
+//注意要先说明int backup[]
